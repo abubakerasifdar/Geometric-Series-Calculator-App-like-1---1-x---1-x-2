@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+
+    width: 90%;
+    margin: 100px auto;
+}
+
+#root {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 50px 30px;
+}
+
+input {
+    height: 40px;
+    width: 98%;
+    margin: 10px auto;
+}
+
+button {
+    height: 46px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+
+
+}
+
+#output {
+    height: 10%;
+    background-color: red;
+    color: white;
+    display: none;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    font-size: large;
+    font-weight: bold;
+}
